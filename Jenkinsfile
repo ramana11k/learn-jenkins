@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment { 
-        GREETINGS = 'Hello jenkins'
+        GREETING = 'Hello jenkins'
     }
 
     //BUILD
