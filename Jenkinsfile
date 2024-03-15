@@ -7,6 +7,7 @@ pipeline {
 
     options {
         timeout(time: 1, unit: 'HOURS') 
+        disableConcurrentBuilds() //It wont allow two builds at a time
     }
 
     environment { 
