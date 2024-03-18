@@ -18,6 +18,7 @@ pipeline {
     }
 
     options {
+        ansiColor('xterm')
         timeout(time: 1, unit: 'HOURS') 
         disableConcurrentBuilds() //It wont allow two builds at a time
     }
